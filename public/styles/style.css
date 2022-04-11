@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400&display=swap');
+
+:root {
+	--header-bg-color: #A86454;
+	--text-color: #222222;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	overflow: hidden;
+	color: var(--text-color);
+}
+
+.container {
+	width: 100%;
+	padding: 12px 20px;
+}
+
+.header {
+	background-color: var(--header-bg-color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #fff;
+	padding: 12px 24px;
+}
+
+.header-logo a {
+	font-size: 24px;
+	font-weight: 800;
+	color: inherit;
+}
+
+.header-menu-list {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu-item {
+	list-style: none;
+}
+
+.header-menu-item:hover a {
+	text-decoration: underline;
+}
+
+.header-menu-item:not(:last-child) {
+	margin-right: 16px;
+}
+
+.header-menu-item a {
+	color: inherit;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+.trip-title {
+	text-align: center;
+	font-size: 36px;
+	padding: 24px 0;
+}
+
+.trip-list {
+	/* background-color: lightblue; */
+	color: var(--text-color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	/* 20px * 2 = 40px */
+	/* 40 / 3 = 20px */
+}
+
+.trip-item {
+	width: calc(33.33% - 13.33px);
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	padding: 8px;
+}
+
+.trip-item img {
+	width: 100%;
+}
+
+.trip-item-content-title {
+	margin-bottom: 4px;
+} 
+
+.trip-item-content-description {
+	margin-bottom: 4px;
+} 
+
+.footer h3 {
+	font-size: 32px;
+	padding-block: 24px;
+	text-align: center;
+}

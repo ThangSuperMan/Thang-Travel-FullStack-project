@@ -1,0 +1,40 @@
+doctype html
+html(lang='en')
+
+  head
+    title Thang Travel | Homepage
+    link(rel='stylesheet', href='styles/style.css')
+
+  body 
+
+    include ./layouts/header.pug
+
+    main.container
+      h3.trip-title Enjoy our beautiful places 😋
+      div.trip-list
+          div.trip-item
+            img(src='https://images.unsplash.com/photo-1552310065-aad9ebece999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2362&q=80')
+            div.trip-item-content
+            h3.trip-item-content-title This is a super trip in the world
+            p.trip-item-content-description This place is very beautiful
+            div.trip-item-content-footer 
+              span.trip-item-content-price 12$
+
+          div.trip-item
+            img(src='https://images.unsplash.com/photo-1552310065-aad9ebece999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2362&q=80')
+            div.trip-item-content
+            h3.trip-item-content-title This is a super trip in the world
+            p.trip-item-content-description This place is very beautiful
+            div.trip-item-content-footer 
+              span.trip-item-content-price 12$
+
+          div.trip-item
+            img(src='https://images.unsplash.com/photo-1552310065-aad9ebece999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2362&q=80')
+            div.trip-item-content
+            h3.trip-item-content-title This is a super trip in the world
+            p.trip-item-content-description This place is very beautiful
+            div.trip-item-content-footer 
+              span.trip-item-content-price 12$
+
+
+    include ./layouts/footer.pug
